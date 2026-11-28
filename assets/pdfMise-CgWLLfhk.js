@@ -1,0 +1,1 @@
+import"./apprenant-CGKo9OYU.js";async function l(e){try{const a=await(await fetch(e)).blob();return await new Promise(r=>{const t=new FileReader;t.onload=()=>r(typeof t.result=="string"?t.result:null),t.onerror=()=>r(null),t.readAsDataURL(a)})}catch{return null}}export{l as e};

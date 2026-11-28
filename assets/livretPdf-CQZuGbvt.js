@@ -1,0 +1,2 @@
+import"./apprenant-DCkzdX58.js";const r="€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ",e={" ":" "," ":" "," ":" ","​":"","‐":"-","‑":"-","−":"-","→":"->","←":"<-","≥":">=","≤":"<=","≈":"~","✓":"oui","✔":"oui","✗":"non",Ω:"ohm","	":" "};function u(t){return[...t.normalize("NFC")].map(n=>{const o=n.codePointAt(0);return n===`
+`||o>=32&&o<=126||o>=160&&o<=255||r.includes(n)?n:e[n]??(o<32?" ":"?")}).join("")}export{u as t};

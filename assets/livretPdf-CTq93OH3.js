@@ -1,0 +1,2 @@
+import"./apprenant-B30Ypyf5.js";const i="/assets/ecole-gustave-CY42TgB4.png",e="€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ",s={" ":" "," ":" "," ":" ","​":"","‐":"-","‑":"-","−":"-","→":"->","←":"<-","≥":">=","≤":"<=","≈":"~","✓":"oui","✔":"oui","✗":"non",Ω:"ohm","	":" "};function u(t){return[...t.normalize("NFC")].map(n=>{const o=n.codePointAt(0);return n===`
+`||o>=32&&o<=126||o>=160&&o<=255||e.includes(n)?n:s[n]??(o<32?" ":"?")}).join("")}export{i as l,u as t};
